@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    width: 40px;
+    height: auto;
+}
+
+.logo-container{
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.logo-title{
+    font-weight: 800;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 992px) {
+    .nav-items{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.nav-pages{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.nav-pages .links{
+    color: black;
+    list-style: none;
+}
+
+.background{
+    background-color: black;
+}
